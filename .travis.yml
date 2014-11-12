@@ -6,7 +6,8 @@ install:
   - "pip install -r requirements.txt"
   - "pip install -r requirements-dev.txt"
   
-script: ./whois.py test
+script: 
+  - py.test ./whois.py test --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
 
 after_success:
   - coveralls
