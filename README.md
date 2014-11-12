@@ -2,6 +2,7 @@ IPv4 Whois data collection and analysis tool
 ============================================
 
 [![Build Status](https://travis-ci.org/marklit/whois.svg?branch=master)](https://travis-ci.org/marklit/whois)
+[![Coverage Status](https://coveralls.io/repos/marklit/whois/badge.png)](https://coveralls.io/r/marklit/whois)
 
 Collects WHOIS details for every IPv4 netblock. Reports supported via Elasticsearch.
 
