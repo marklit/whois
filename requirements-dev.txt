@@ -1,5 +1,4 @@
 -r requirements.txt
-coverage
-python-coveralls==2.4.2
+python-coveralls
 pytest
 pytest-cov
