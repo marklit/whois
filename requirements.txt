@@ -7,6 +7,6 @@ ipaddr==2.1.11
 ipcalc==1.1.3
 ipwhois==0.9.1
 pyelasticsearch==0.7.1
-requests==2.4.3
+requests
 simplejson==3.6.5
 six==1.8.0
